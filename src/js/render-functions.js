@@ -37,7 +37,6 @@ export function clearGallery() {
 
 export function showLoader() {
   loader.classList.remove('hidden');
-  clearGallery();
 }
 
 export function hideLoader() {
